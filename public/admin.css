@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    width:100%;
+    margin: 0 auto;
+    padding: 30px 0px; 
+    background-color: #111111;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+header .logo{
+    width: 957px;
+    margin: 0 auto;
+    display: flex;
+    
+    
+}
+/* Cards and main index*/
+.recipes{
+    margin: 0 auto;
+    width: 957px;
+    box-sizing: border-box;
+}
+.recipe_title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bolder;
+    color: #111111;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.recipe_cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+.card_image img{
+    width: 172px;
+    border-radius: 8px;
+}
+.card_info p:first-child{
+    font-size: 18px;
+    color: #111111;
+    margin-bottom: 5px;
+}
+.card_info p{
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+.card_info a{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+/*create*/
+.create_content{
+    margin: 0 auto;
+    width: 957px;
+}
+.create_header,.show_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.create_header p,.show_header p{
+    font-size: 24px;
+    color: #111111;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+    
+}
+button[type="submit"],.show_edit a{
+    background-color: #6558C3 ;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 9px 20px;
+    text-decoration: none;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.fields .item input{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    
+}
+.fields .item div{
+    position: relative;
+    border: 1px solid  #DDDDDD;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    line-height: 10px;
+    
+}
+.fields .item:last-child div{
+    padding-bottom:150px;
+    
+}
+.fields .item:last-child input{
+    padding-bottom: 50px;
+}
+.fields .item p{
+    font-size: 16px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+/* edit */
+.forms{
+    position: relative;
+}
+#form-delete {
+    position: absolute;
+    margin-right: 150px;
+    top: 0 ;
+    right:0;
+}
+#form-delete button[type="submit"]{
+    background-color: #DC4747 ;
+}
+/* Show */
+.show_content{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 957px;
+    overflow:auto
+}
+
+.main_image_show{
+    margin-bottom: 50px;
+}
+.main_image_show img{
+    position: relative;
+    width: 957px;
+    border-radius: 15px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title p:first-child{
+    font-size: 36px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+}
+.title p:nth-child(2){
+    font-size: 20px;
+    color: #777777;
+}
+.show_ingredients,
+.show_preparation{
+    margin-bottom: 50px;
+
+}
+.show_ingredients p:first-child,
+.show_preparation p:first-child,
+.show_information p:first-child{
+    font-size: 24px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.show_ingredients ul,
+.show_preparation ul{
+    list-style-position: inside;
+    font-family: 'Roboto', sans-serif; 
+    line-height: 28px;
+    font-size: 16px;
+    color: #444444;
+    text-align: justify;
+}
+.show_information p:last-child{
+    font-family: 'Roboto', sans-serif; 
+    line-height: 28px;
+    font-size: 18px;
+    color: #444444;
+    margin-bottom: 100px;
+    text-align: justify;
+}

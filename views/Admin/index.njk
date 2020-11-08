@@ -1,0 +1,22 @@
+{% extends "Admin/layout.njk" %}
+{% block content %}
+<div class="recipes">
+    <div class="recipe_title">
+        <p>Gerenciar receitas</p>
+    </div>
+    <div class="recipe_cards">
+       {% for recipe in recipes %}
+           <div class="card" id="{{recipe.id}}">
+               <div class="card_image">
+                   <img src="{{recipe.image}}" alt="{{recipe.id}}">
+               </div>
+               <div class="card_info">
+                   <p>{{recipe.title}}</p>
+                   <p>{{recipe.description}}</p>
+                   <a href="/admin/Receitas/{{recipe.id}}">Visualizar</a>
+               </div>
+           </div>
+       {% endfor %}
+    </div>
+</div>
+{% endblock %}
