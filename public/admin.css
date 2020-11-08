@@ -15,9 +15,10 @@ header {
     margin-bottom: 50px;
 }
 header .logo{
-    width: 957px;
-    margin: 0 auto;
+    position: relative;
+    width: 100%;
     display: flex;
+    justify-content: center;
     
     
 }
@@ -68,13 +69,13 @@ header .logo{
     margin: 0 auto;
     width: 957px;
 }
-.create_header,.show_header{
+.create_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-    
 }
+
 .create_header p,.show_header p{
     font-size: 24px;
     color: #111111;
@@ -82,7 +83,7 @@ header .logo{
     font-weight: bold;
     
 }
-button[type="submit"],.show_edit a{
+button[type="submit"]{
     background-color: #6558C3 ;
     color: #FFFFFF;
     font-size: 16px;
@@ -110,11 +111,17 @@ button[type="submit"],.show_edit a{
     
 }
 .fields .item:last-child div{
-    padding-bottom:150px;
-    
+    border: none;
 }
-.fields .item:last-child input{
-    padding-bottom: 50px;
+.fields .item div textarea{
+    resize: none;
+    width: 957px;
+    height: 250px;
+    border: 1px solid  #DDDDDD;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    
 }
 .fields .item p{
     font-size: 16px;
@@ -143,6 +150,26 @@ button[type="submit"],.show_edit a{
     width: 957px;
     overflow:auto
 }
+.show_header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.show_edit{
+    background-color:#6558C3;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 9px 20px;
+    text-decoration: none;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.show_edit a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 .main_image_show{
     margin-bottom: 50px;
@@ -164,6 +191,11 @@ button[type="submit"],.show_edit a{
 .title p:nth-child(2){
     font-size: 20px;
     color: #777777;
+}
+.show_info{
+    box-sizing: border-box;
+    width: 957px;
+    margin: 0 auto;
 }
 .show_ingredients,
 .show_preparation{

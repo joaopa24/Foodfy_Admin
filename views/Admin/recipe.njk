@@ -12,7 +12,7 @@
         <div class="main_image_show">
             <img src="{{recipe.image}}" alt="">
         </div>
-          <div class="show_info">
+        <div class="show_info">
             <div class="title">
                 <p>{{recipe.title}}</p>
                 <p>{{recipe.description}}</p>
@@ -20,8 +20,8 @@
             <div class="show_ingredients">
                 <p>Ingredientes</p>
                 <ul>
-                    {% for  ingredient in recipe.ingredients %}
-                     <li>{{ ingredient }}</li>
+                    {% for ingredient in recipe.ingredients %}
+                        <li>{{ ingredient }}</li>
                     {% endfor %}
                 </ul>
             </div>
@@ -29,15 +29,15 @@
                 <p>Modo de preparo</p>
                 <ul>
                     {% for item in recipe.preparation %}
-                    <li>{{ item }}</li>
+                        <li>{{ item }}</li>
                     {% endfor %}
                 </ul>
             </div>
             <div class="show_information">
                 <p>Informações adicionais</p>
-                <p>{{recipe.information}}</p> 
+                <p>{{recipe.information}}</p>
             </div>
         </div>
     </div>
-    
+
 {% endblock %}
