@@ -1,30 +1,27 @@
-*{
+*,html{
     margin: 0;
     border: 0;
     padding: 0;
 }
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 header {
-    width:100%;
-    margin: 0 auto;
+    width: 100vw;
     padding: 30px 0px; 
     background-color: #111111;
-    box-sizing: border-box;
     margin-bottom: 50px;
+    
+    display:flex;
+    justify-content: center;
 }
 header .logo{
+    width: 957px;
     position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-    
 }
 /* Cards and main index*/
 .recipes{
-    margin: 0 auto;
     width: 957px;
     box-sizing: border-box;
 }
@@ -72,7 +69,6 @@ header .logo{
 .create_header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -144,11 +140,16 @@ button[type="submit"]{
     background-color: #DC4747 ;
 }
 /* Show */
-.show_content{
-    margin: 0 auto;
+.global{
     box-sizing: border-box;
-    width: 957px;
-    overflow:auto
+    display: flex;
+    justify-content: center;
+    width:100vw;
+}
+.show_content{
+    margin:0 auto;
+    width:957px;
+    
 }
 .show_header{
     margin-bottom: 30px;
@@ -172,11 +173,13 @@ button[type="submit"]{
 }
 
 .main_image_show{
+    position: relative;
+    width: 957px;
     margin-bottom: 50px;
 }
 .main_image_show img{
-    position: relative;
     width: 957px;
+   
     border-radius: 15px;
 }
 .title {
@@ -193,9 +196,8 @@ button[type="submit"]{
     color: #777777;
 }
 .show_info{
-    box-sizing: border-box;
     width: 957px;
-    margin: 0 auto;
+    box-sizing: border-box;
 }
 .show_ingredients,
 .show_preparation{
@@ -222,7 +224,7 @@ button[type="submit"]{
 .show_information p:last-child{
     font-family: 'Roboto', sans-serif; 
     line-height: 28px;
-    font-size: 18px;
+    font-size: 16px;
     color: #444444;
     margin-bottom: 100px;
     text-align: justify;
