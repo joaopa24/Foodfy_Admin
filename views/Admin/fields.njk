@@ -7,15 +7,22 @@
     </div>
     <div class="item">
         <p>Ingredientes</p>
-        <div>
-            <input type="text" name="ingredients">
+        <div class="ingredients">
+            <div class="ingredient">
+                <input type="text" name="ingredients[]">
+            </div>
         </div>
+        <button type="button" class="add_ingredient">Add Ingredient</button>
     </div>
     <div class="item">
         <p>Modo de preparo</p>
-        <div>
-            <input type="text" name="preparation">
+        <div class="preparations">
+            <div class="preparation">
+                <input type="text" name="preparation[]">
+            </div>
+
         </div>
+        <button type="button" class="add_preparation">Add Preparation</button>
     </div>
     <div class="item">
         <p>Informações adicionais</p>
@@ -24,3 +31,4 @@
         </div>
     </div>
 </div>
+<script src="/script_admin.js"></script>

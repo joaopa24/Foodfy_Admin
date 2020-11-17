@@ -12,7 +12,6 @@ header {
     padding: 30px 0px; 
     background-color: #111111;
     margin-bottom: 50px;
-    
     display:flex;
     justify-content: center;
 }
@@ -79,7 +78,9 @@ header .logo{
     font-weight: bold;
     
 }
-button[type="submit"]{
+button[type="submit"],
+.add_ingredient,
+.add_preparation{
     background-color: #6558C3 ;
     color: #FFFFFF;
     font-size: 16px;
@@ -96,16 +97,17 @@ button[type="submit"]{
     padding: 10px;
     outline: none;
     border-radius: 4px;
-    
-}
-.fields .item div{
     position: relative;
     border: 1px solid  #DDDDDD;
     border-radius: 4px;
-    margin-bottom: 30px;
     line-height: 10px;
+    margin-bottom: 6px;
     
 }
+.fields .item{
+    margin-bottom: 30px;
+}
+
 .fields .item:last-child div{
     border: none;
 }
@@ -170,6 +172,7 @@ button[type="submit"]{
 .show_edit a{
     text-decoration: none;
     color: #FFFFFF;
+
 }
 
 .main_image_show{

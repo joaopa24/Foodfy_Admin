@@ -41,10 +41,3 @@ button_more_recipe_hide.addEventListener("click", function(){
 
 })
 
-/* refazer para configurações globais , só uma classe de botão e texto */
-
-
-
-
-/* tentativa falia de tentar fazer um botão geral , refazer com class especificos */
-/* ingredients_content.classList.add('hide') */
