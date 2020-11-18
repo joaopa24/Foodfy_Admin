@@ -30,6 +30,9 @@ header .logo{
     font-family: 'Roboto-Bold', sans-serif;
     font-weight: bolder;
     color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .card{
     display: grid;
@@ -40,10 +43,13 @@ header .logo{
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 20px;
+   margin-bottom: 48px;
 }
 .card_image img{
     width: 172px;
+    height: 90px;
     border-radius: 8px;
+
 }
 .card_info p:first-child{
     font-size: 18px;
@@ -90,7 +96,11 @@ button[type="submit"],
     font-weight: bold;
     border-radius: 4px;
 }
-.fields .item input{
+button[type="submit"] a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.fields .item input,.fields .item select{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -182,7 +192,7 @@ button[type="submit"],
 }
 .main_image_show img{
     width: 957px;
-   
+    height: 500px;
     border-radius: 15px;
 }
 .title {

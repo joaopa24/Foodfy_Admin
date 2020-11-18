@@ -291,6 +291,40 @@
         "açúcar de confeiteiro e corte em quadrados."
       ],
       "information": "Qualquer Quantidade"
+    },
+    {
+      "id": "Bolo",
+      "image": "https://vovopalmirinha.com.br/wp-content/uploads/2016/06/bolo-simples.jpg",
+      "image_url": "https://vovopalmirinha.com.br/wp-content/uploads/2016/06/bolo-simples.jpg",
+      "title": "Bolo",
+      "description": "Bolo",
+      "Id_Url": "Bolo",
+      "featured": "true",
+      "ingredients": [
+        "Qualquer"
+      ],
+      "preparation": [
+        "Qualquer "
+      ],
+      "textarea": "Bolo"
+    },
+    {
+      "id": "Bolo",
+      "image": "https://vovopalmirinha.com.br/wp-content/uploads/2016/06/bolo-simples.jpg",
+      "image_url": "https://vovopalmirinha.com.br/wp-content/uploads/2016/06/bolo-simples.jpg",
+      "title": "Bolo",
+      "description": "Bolo",
+      "Id_Url": "Bolo",
+      "featured": "true",
+      "ingredients": [
+        "Qualquer",
+        "Teste2",
+        "Lol1"
+      ],
+      "preparation": [
+        "Qualquer "
+      ],
+      "textarea": "Bolo"
     }
   ]
 }

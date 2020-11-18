@@ -32,7 +32,7 @@ exports.index = function (req, res) {
     return res.render("Admin/index", {recipes:data.recipes})
 }
 exports.create = function (req, res) {
-    return res.render("Admin/create", {items:data.recipes})
+    return res.render("Admin/create")
 }
 exports.recipe_admin = function(req,res){
     const id = req.params.id;
@@ -56,11 +56,32 @@ exports.recipe_admin_edit = function (req, res) {
     return res.render("Admin/edit", {items:data.recipes})
 }
 exports.post = function (req,res) {
-    return res.send(req.body)
+    const keys = Object.keys(req.body)
+    for(key of keys){
+        if(req.body[key] == "")
+        return res.send("porfavor preencha todos os campos")
+    }
+
+
+    let {image_url,title,description,Id_Url,featured,ingredients,preparation,textarea} = req.body
+    let id = Id_Url
+    let image = image_url
+
+    data.recipes.push({
+        id,
+        image,
+        ...req.body
+    })
+
+    fs.writeFile("data.json", JSON.stringify(data, null,2), function(err){
+    if(err) return res.send("write file error!")
+    return res.redirect(`/admin/Receitas/${id}`)
+    })
 }
 exports.put = function (req,res) {
-    return res.send(req.body)
-}
-exports.delete = function (req,res) {
     
+}
+
+exports.delete = function (req,res) {
+    return res.send("deletado")
 }
