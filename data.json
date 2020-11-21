@@ -5,29 +5,17 @@
       "image": "/assets/burger.png",
       "title": "Triplo bacon burger",
       "description": "por Jorge Relato",
-      "featured": true,
+      "featured": "true",
       "ingredients": [
-        "1 xícara (chá) de leite",
-        "1 ovo",
-        "1 colher (chá) de sal",
-        "1 colher (chá) de açúcar",
-        "1 colher (sopa) de margarina",
-        "1 e 1/2 xícara (chá) de farinha de trigo",
-        "1 colher (sobremesa) de fermento em pó",
-        "1/2 lata de molho de tomate",
-        "250 g de mussarela ralada grossa",
-        "2 tomates fatiados",
-        "azeitona picada",
-        "orégano a gosto"
+        "1 xícara (chá) de leite,1 ovo,1 colher (chá) de sal,1 colher (chá) de açúcar,1 colher (sopa) de margarina,1 e 1/2 xícara (chá) de farinha de trigo,1 colher (sobremesa) de fermento em pó,1/2 lata de molho de tomate,250 g de mussarela ralada grossa,2 tomates fatiados,azeitona picada,orégano a gosto"
       ],
       "preparation": [
-        "No liquidificador bata o leite, o ovo, o sal, o açúcar, a margarina, a farinha de trigo e o fermento em pó até que tudo esteja encorporado.",
-        "Despeje a massa em uma assadeira para pizza untada com margarina e leve ao forno preaquecido por 20 minutos.",
-        "Retire do forno e despeje o molho de tomate.",
-        "Cubra a massa com mussarela ralada, tomate e orégano a gosto.",
-        "Leve novamente ao forno até derreter a mussarela."
+        "No liquidificador bata o leite, o ovo, o sal, o açúcar, a margarina, a farinha de trigo e o fermento em pó até que tudo esteja encorporado.,Despeje a massa em uma assadeira para pizza untada com margarina e leve ao forno preaquecido por 20 minutos.,Retire do forno e despeje o molho de tomate.,Cubra a massa com mussarela ralada, tomate e orégano a gosto.,Leve novamente ao forno até derreter a mussarela."
       ],
-      "information": "Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres* Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres! \n\n Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface."
+      "information": "Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres* Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres! \n\n Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface.",
+      "image_url": "/assets/burger.png",
+      "Id_Url": "burger",
+      "textarea": ""
     },
     {
       "id": "pizza",
@@ -296,35 +284,17 @@
       "id": "Bolo",
       "image": "https://vovopalmirinha.com.br/wp-content/uploads/2016/06/bolo-simples.jpg",
       "image_url": "https://vovopalmirinha.com.br/wp-content/uploads/2016/06/bolo-simples.jpg",
-      "title": "Bolo",
+      "title": "Boloddd",
       "description": "Bolo",
       "Id_Url": "Bolo",
       "featured": "true",
       "ingredients": [
-        "Qualquer"
+        "Lol"
       ],
       "preparation": [
-        "Qualquer "
+        "Amendoin,Qualquer "
       ],
-      "textarea": "Bolo"
-    },
-    {
-      "id": "Bolo",
-      "image": "https://vovopalmirinha.com.br/wp-content/uploads/2016/06/bolo-simples.jpg",
-      "image_url": "https://vovopalmirinha.com.br/wp-content/uploads/2016/06/bolo-simples.jpg",
-      "title": "Bolo",
-      "description": "Bolo",
-      "Id_Url": "Bolo",
-      "featured": "true",
-      "ingredients": [
-        "Qualquer",
-        "Teste2",
-        "Lol1"
-      ],
-      "preparation": [
-        "Qualquer "
-      ],
-      "textarea": "Bolo"
+      "textarea": ""
     }
   ]
 }
