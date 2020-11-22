@@ -75,9 +75,8 @@ exports.post = function (req, res) {
     }
 
 
-    let { image_url, title, description, Id_Url, featured, ingredients, preparation, textarea } = req.body
-    let id = Id_Url
-    let image = image_url
+    let { image, title, description, id, featured, ingredients, preparation, textarea } = req.body
+    /* Resolver problema com identificação */
 
     data.recipes.push({
         id,
